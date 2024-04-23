@@ -67,8 +67,6 @@ func WaitingView() -> some View {
         ProgressView()
             .progressViewStyle(.circular)
             .tint(.brown)
-        
-        Text("Fetch Image ...")
     }
 }
 
