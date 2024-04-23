@@ -29,6 +29,6 @@ class APIService {
                 }
             }
         }
-        return []
+        return news
     }
 }

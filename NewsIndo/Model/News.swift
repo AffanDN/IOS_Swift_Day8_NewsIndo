@@ -9,8 +9,8 @@ import Foundation
 
 struct News: Decodable {
     let messages: String
-        let total: Int
-        let data: [NewsArticle]
+    let total: Int
+    let data: [NewsArticle]
 }
 
 // MARK: - NewsArticle
